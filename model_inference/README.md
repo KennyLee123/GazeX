@@ -11,8 +11,8 @@ The provided JSON files contain different prompts for each function described in
 
 | Installation Script       | Input Required | Function                              |
 |---------------------------|----------------|------------------------------------------------|
-| `examine_chest_xray.sh`   | Image Path     | Generate descriptions of an chest X-ray image by mimicking radiologist's examination process                     |
-| `attention_extraction.sh` | Image Path, Disease Description | Generate attention areas of a diseae description for an chest X-ray image    |
+| `examine_chest_xray.json`   | Image Path     | Generate descriptions of an chest X-ray image by mimicking radiologist's examination process                     |
+| `attention_extraction.json` | Image Path, Disease Description | Generate attention areas of a diseae description for an chest X-ray image    |
 
 
 
