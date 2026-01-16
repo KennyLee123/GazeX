@@ -5,7 +5,16 @@ Follow the instruction to run model inference.
 ---
 
 ### **Step 1: Prepare Data**  
-Follow the provided JSON file format as an example to build your own inference dataset.
+Follow the provided JSON file as an example to build your own inference dataset.
+
+The provided JSON files contain different prompts for each function described in the paper.
+
+| Installation Script       | Python/Julia Version | Methods Supported                              |
+|---------------------------|----------------------|------------------------------------------------|
+| `env1_installation.sh`    | Python 3.8           | UCE, SCimilarity                               |
+| `env2_installation.sh`    | Python 3.11          | Geneformer, scFoundation, scVI, PCA, LDVAE     |
+| `env3_installation.sh`    | Python 3.10          | scGPT                                          |
+
 
 #### **Step 2: Run Inference**  
 ```bash
