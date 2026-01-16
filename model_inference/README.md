@@ -9,11 +9,11 @@ Follow the provided JSON file as an example to build your own inference dataset.
 
 The provided JSON files contain different prompts for each function described in the paper.
 
-| Installation Script       | Python/Julia Version | Methods Supported                              |
-|---------------------------|----------------------|------------------------------------------------|
-| `env1_installation.sh`    | Python 3.8           | UCE, SCimilarity                               |
-| `env2_installation.sh`    | Python 3.11          | Geneformer, scFoundation, scVI, PCA, LDVAE     |
-| `env3_installation.sh`    | Python 3.10          | scGPT                                          |
+| Installation Script       | Input Required | Function                              |
+|---------------------------|----------------|------------------------------------------------|
+| `examine_chest_xray.sh`   | Image Path     | Generate descriptions of an chest X-ray image by mimicking radiologist's examination process                     |
+| `attention_extraction.sh` | Image Path, Disease Description | Generate attention areas of a diseae description for an chest X-ray image    |
+
 
 
 #### **Step 2: Run Inference**  
