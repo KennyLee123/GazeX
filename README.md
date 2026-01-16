@@ -30,7 +30,7 @@ Use the provided installation scripts to set up corresponding environments.
 
 | Installation Script       | Python Version |
 |---------------------------|----------------------|
-| `gazex_env_installation.sh`    | Python 3.8      |
+| `gazex_env_installation.sh`    | Python 3.10.0      |
 
 To install the required environment for a specific setup, run:
 
