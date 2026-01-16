@@ -1,4 +1,4 @@
-## 🧬 Datasets
+## Datasets
 
 Currently included datasets:
 
