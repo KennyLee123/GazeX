@@ -298,7 +298,7 @@ for data_csv in ['patch_metadata_enhanced_bbox_1','patch_metadata_enhanced_bbox_
         #             f"./image_jpg/{row['id']}.jpg"
         #           ],
         #         })
-          
+#post filter is required if you have specific train test split
 genseq = gen_seq()
 result.extend(genseq)
 gen_seq_localized = gen_seq_localized()
